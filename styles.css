@@ -42,3 +42,22 @@ a {
     text-decoration: none;
     color: #f9faf8;
 }
+
+.section1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.section1 button {
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 6px 18px;
+    border-style: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
