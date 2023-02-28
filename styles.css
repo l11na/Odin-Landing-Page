@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,6 +14,8 @@ body {
     justify-content: space-between;
     padding-left: 10%;
     align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .logo {
@@ -46,6 +49,7 @@ a {
 .section1 {
     background-color: #1f2937;
     color: #f9faf8;
+    padding-bottom: 70px;
 }
 
 h1 {
@@ -140,4 +144,46 @@ h1 {
     display: flex;
     align-self: flex-end;
     font-size: 24px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.container {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 100px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.container .text {
+    color: #e5e7eb;
+    width: 50%;
+}
+
+.text-heading {
+    font-size: 24px;
+    font-weight: 500 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section4 .text {
+    max-width: 400px;
+}
+
+.section4 button {
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 6px 18px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
 }
